@@ -1,7 +1,7 @@
 import React from "react";
 
 function Task({ text, category, onDelete }) {
-  // Trigger the deletion process in the parent component
+
   const handleDelete = () => {
     onDelete(text, category);
   };

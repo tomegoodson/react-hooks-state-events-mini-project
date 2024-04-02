@@ -6,7 +6,7 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Call the onTaskFormSubmit prop with the new task's details
+
     onTaskFormSubmit({ text, category });
   };
 
